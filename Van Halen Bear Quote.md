@@ -1,0 +1,1 @@
+"I'm not like this because I'm in Van Halen, I'm in Van Halen because I'm like this."
