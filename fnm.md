@@ -1,0 +1,1 @@
+There’s always an easy way out. – Mike Patton, *The Gentle Art of Making Enemies*
