@@ -6,12 +6,9 @@
     <title>Inklings</title>
 </head>
 <body>
-    ---
-    layout: default
-    title: Inklings
-    ---
+    
     <h1>Inklings</h1>
-    <p>Welcome! Here's a list of my posts:</p>
+
     <ul id="file-list"></ul>
 
     <script>
@@ -20,7 +17,7 @@
             .then(data => {
                 let list = document.getElementById("file-list");
                 data.forEach(file => {
-                    if (file.name.endsWith(".md") && file.name !== "index.md") {
+                    if (file.name.endsWith(".md") && file.name !== "index.html") {
                         let li = document.createElement("li");
                         let a = document.createElement("a");
                         a.href = file.name;
