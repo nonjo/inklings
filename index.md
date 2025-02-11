@@ -2,7 +2,7 @@
 
 <ul id="file-list"></ul>
 <script>
-  fetch("https://api.github.com/repos/nonjo/inklings/contents/") https://
+  fetch("https://api.github.com/repos/nonjo/inklings/contents/")
     .then(response => response.json())
     .then(data => {
       let list = document.getElementById("file-list");
